@@ -1,10 +1,15 @@
 # 📦 package-checker-lite
 
+![npm](https://img.shields.io/npm/v/package-checker-lite)
+![npm](https://img.shields.io/npm/dm/package-checker-lite)
+![License](https://img.shields.io/npm/l/package-checker-lite)
+![GitHub Repo stars](https://img.shields.io/github/stars/hammadsadi/package-checker-lite?style=social)
+
 A tiny CLI tool to scan your project’s **dependencies** and report which ones are unused.
 
-✅ Lightweight
-✅ TypeScript Support
-✅ ESM Ready
+✅ Lightweight  
+✅ TypeScript Support  
+✅ ESM Ready  
 ✅ Perfect for monorepo / single project audits
 
 ---
@@ -86,13 +91,3 @@ Made with ❤️ by [Hammad Sadi](https://github.com/hammadsadi)
 ## 📄 License
 
 MIT
-
----
-
-```json
-"repository": {
-  "type": "git",
-  "url": "https://github.com/hammadsadi/package-checker-lite.git"
-},
-"homepage": "https://github.com/hammad-sadiq/package-checker-lite#readme"
-```

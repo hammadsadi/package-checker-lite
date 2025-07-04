@@ -5,6 +5,9 @@
     "type": "git",
     "url": "https://github.com/hammadsadi/package-checker-lite.git"
   },
+  "bugs": {
+    "url": "https://github.com/hammadsadi/package-checker-lite/issues"
+  },
   "homepage": "https://github.com/hammadsadi/package-checker-lite#readme",
   "license": "MIT",
   "type": "module",
@@ -12,7 +15,7 @@
   "exports": {
     ".": "./dist/bin/index.js"
   },
-  "description": "Scan devDependencies and find unused or extraneous packages",
+  "description": "Scan package.json dependencies and report unused packages",
   "bin": {
     "package-checker-lite": "dist/bin/index.js"
   },
@@ -43,5 +46,5 @@
     "unused packages in package.json",
     "unused packages in package.json lite"
   ],
-  "author": "Hammad Sadi"
+  "author": "Hammad Sadi <hammad.sadi@yahoo.com> (https://github.com/hammadsadi)"
 }
