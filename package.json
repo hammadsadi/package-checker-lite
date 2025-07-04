@@ -1,0 +1,47 @@
+{
+  "name": "package-checker-lite",
+  "version": "1.0.2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hammadsadi/package-checker-lite.git"
+  },
+  "homepage": "https://github.com/hammadsadi/package-checker-lite#readme",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/bin/index.js",
+  "exports": {
+    ".": "./dist/bin/index.js"
+  },
+  "description": "Scan devDependencies and find unused or extraneous packages",
+  "bin": {
+    "package-checker-lite": "dist/bin/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "tsx bin/index.ts"
+  },
+  "types": "./dist/src/checker.d.ts",
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.10",
+    "typescript": "^5.8.3"
+  },
+  "keywords": [
+    "cli",
+    "devDependencies",
+    "npm",
+    "package checker",
+    "package.json",
+    "package.json checker",
+    "package.json checker lite",
+    "unused packages",
+    "unused packages in package.json",
+    "unused packages in package.json lite"
+  ],
+  "author": "Hammad Sadi"
+}
